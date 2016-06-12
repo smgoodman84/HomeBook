@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBook", "HomeBook\HomeBo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBook.Tests", "HomeBook.Tests\HomeBook.Tests.csproj", "{F5C89395-A8F3-47E0-B3CF-5A0EB0E485F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBook.API", "HomeBook.API\HomeBook.API.csproj", "{2C29E200-36B1-4118-8ECF-323117C6408B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F5C89395-A8F3-47E0-B3CF-5A0EB0E485F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5C89395-A8F3-47E0-B3CF-5A0EB0E485F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5C89395-A8F3-47E0-B3CF-5A0EB0E485F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C29E200-36B1-4118-8ECF-323117C6408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C29E200-36B1-4118-8ECF-323117C6408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C29E200-36B1-4118-8ECF-323117C6408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C29E200-36B1-4118-8ECF-323117C6408B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

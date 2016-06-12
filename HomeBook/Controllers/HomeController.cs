@@ -23,6 +23,7 @@ namespace HomeBook.Controllers
                 // store the file inside ~/App_Data/uploads folder
                 var path = Path.Combine(Server.MapPath("~/App_Data/uploads"), fileName);
                 file.SaveAs(path);
+                API.HomeBook.UploadFile(path);
             }
             // redirect back to the index action to show the form once again
             return RedirectToAction("Index");
