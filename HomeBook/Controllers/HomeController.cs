@@ -8,6 +8,7 @@ namespace HomeBook.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Transactions = API.HomeBook.Transactions; 
             return View();
         }
 

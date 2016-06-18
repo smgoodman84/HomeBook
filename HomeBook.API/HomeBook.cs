@@ -1,4 +1,7 @@
-﻿namespace HomeBook.API
+﻿using System.Collections.Generic;
+using HomeBook.API.Domain;
+
+namespace HomeBook.API
 {
     public static class HomeBook
     {
@@ -7,6 +10,8 @@
             var uploader = new TransactionFileUploader();
             uploader.UploadFile(filePath);
         }
+
+        public static IEnumerable<Transaction> Transactions => Repository.Transactions;
     }
 }
 

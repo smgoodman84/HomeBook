@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using HomeBook.API.CsvParsing;
+using HomeBook.API.Domain;
 
 namespace HomeBook.API
 {
@@ -9,6 +10,7 @@ namespace HomeBook.API
         {
             var csvParser = new TransactionCsvParser();
             var transactions = csvParser.ParseFile(filePath).ToList();
+            transactions.ForEach(Repository.Add);
         }
     }
 }

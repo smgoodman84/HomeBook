@@ -2,7 +2,7 @@
 
 namespace HomeBook.API.Domain
 {
-    internal class Transaction
+    public class Transaction
     {
         public Transaction(
             DateTime date,

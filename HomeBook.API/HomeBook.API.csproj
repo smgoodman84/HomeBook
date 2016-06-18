@@ -43,6 +43,7 @@
     <Compile Include="CsvParsing\CsvParser.cs" />
     <Compile Include="CsvParsing\CsvRecord.cs" />
     <Compile Include="CsvParsing\FieldNotFoundException.cs" />
+    <Compile Include="Domain\Repository.cs" />
     <Compile Include="Domain\Transaction.cs" />
     <Compile Include="CsvParsing\TransactionCsvParser.cs" />
     <Compile Include="TransactionFileUploader.cs" />
