@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBook.Tests", "HomeBook.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBook.API", "HomeBook.API\HomeBook.API.csproj", "{2C29E200-36B1-4118-8ECF-323117C6408B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBook.DAL", "HomeBook.DAL\HomeBook.DAL.csproj", "{1A5185C1-18B3-4D55-916A-38C3796062DD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HomeBook.Database", "HomeBook.Database\HomeBook.Database.sqlproj", "{0DF5003A-A810-4344-99CF-741BD30C3AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,16 @@ Global
 		{2C29E200-36B1-4118-8ECF-323117C6408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C29E200-36B1-4118-8ECF-323117C6408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C29E200-36B1-4118-8ECF-323117C6408B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5185C1-18B3-4D55-916A-38C3796062DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5185C1-18B3-4D55-916A-38C3796062DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5185C1-18B3-4D55-916A-38C3796062DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5185C1-18B3-4D55-916A-38C3796062DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF5003A-A810-4344-99CF-741BD30C3AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF5003A-A810-4344-99CF-741BD30C3AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF5003A-A810-4344-99CF-741BD30C3AE8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0DF5003A-A810-4344-99CF-741BD30C3AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF5003A-A810-4344-99CF-741BD30C3AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF5003A-A810-4344-99CF-741BD30C3AE8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
